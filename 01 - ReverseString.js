@@ -1,0 +1,11 @@
+// Write a Program to reverse a string in JavaScript.
+
+function reverseString(str) {
+  let newStr = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    newStr = newStr + str[i];
+  }
+  return newStr;
+}
+
+console.log(reverseString("ReverseMe"));
